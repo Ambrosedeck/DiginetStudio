@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Outer D shape in dark navy -->
+  <path 
+    d="M 175 120 L 260 120 C 330 120 375 165 375 250 C 375 335 330 380 260 380 L 215 380" 
+    fill="none" 
+    stroke="#0E1B38" 
+    stroke-width="32" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+  <path 
+    d="M 175 120 L 175 380" 
+    fill="none" 
+    stroke="#0E1B38" 
+    stroke-width="32" 
+    stroke-linecap="round"
+  />
+
+  <!-- Network lines in cyan -->
+  <line x1="225" y1="200" x2="225" y2="300" stroke="#00B4D8" stroke-width="12" stroke-linecap="round"/>
+  <line x1="225" y1="200" x2="300" y2="250" stroke="#00B4D8" stroke-width="12" stroke-linecap="round"/>
+  <line x1="225" y1="300" x2="300" y2="250" stroke="#00B4D8" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Network node circles -->
+  <circle cx="225" cy="200" r="16" fill="#FFFFFF" stroke="#00B4D8" stroke-width="9"/>
+  <circle cx="225" cy="300" r="16" fill="#FFFFFF" stroke="#00B4D8" stroke-width="9"/>
+  <circle cx="300" cy="250" r="16" fill="#FFFFFF" stroke="#00B4D8" stroke-width="9"/>
+</svg>

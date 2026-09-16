@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 90" width="100%" height="100%">
+  <!-- Left: Official D Icon with Turquoise Network Symbol (Light variant) -->
+  <g transform="translate(-30, -35) scale(0.26)">
+    <!-- Outer D shape in white -->
+    <path 
+      d="M 175 110 L 265 110 C 340 110 390 160 390 250 C 390 340 340 390 265 390 L 215 390" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-width="34" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    />
+    <path 
+      d="M 175 110 L 175 390" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-width="34" 
+      stroke-linecap="round"
+    />
+
+    <!-- Network lines in cyan -->
+    <line x1="225" y1="195" x2="225" y2="305" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+    <line x1="225" y1="195" x2="305" y2="250" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+    <line x1="225" y1="305" x2="305" y2="250" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+
+    <!-- Network node circles -->
+    <circle cx="225" cy="195" r="18" fill="#0A0A0A" stroke="#00B4D8" stroke-width="10"/>
+    <circle cx="225" cy="305" r="18" fill="#0A0A0A" stroke="#00B4D8" stroke-width="10"/>
+    <circle cx="305" cy="250" r="18" fill="#0A0A0A" stroke="#00B4D8" stroke-width="10"/>
+  </g>
+
+  <!-- Right: DIGINET STUDIO Wordmark in White -->
+  <text x="92" y="58" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif">
+    <tspan font-weight="900" font-size="44" fill="#FFFFFF" letter-spacing="1">DIGINET </tspan>
+    <tspan font-weight="400" font-size="44" fill="#FFFFFF" letter-spacing="3" opacity="0.85">STUDIO</tspan>
+  </text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="100%" height="100%">
+  <g transform="translate(50, 20)">
+    <!-- Outer D shape in dark navy -->
+    <path 
+      d="M 175 110 L 265 110 C 340 110 390 160 390 250 C 390 340 340 390 265 390 L 215 390" 
+      fill="none" 
+      stroke="#0E1B38" 
+      stroke-width="34" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    />
+    <path 
+      d="M 175 110 L 175 390" 
+      fill="none" 
+      stroke="#0E1B38" 
+      stroke-width="34" 
+      stroke-linecap="round"
+    />
+
+    <!-- Network lines in cyan -->
+    <line x1="225" y1="195" x2="225" y2="305" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+    <line x1="225" y1="195" x2="305" y2="250" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+    <line x1="225" y1="305" x2="305" y2="250" stroke="#00B4D8" stroke-width="13" stroke-linecap="round"/>
+
+    <!-- Network node circles -->
+    <circle cx="225" cy="195" r="18" fill="#FFFFFF" stroke="#00B4D8" stroke-width="10"/>
+    <circle cx="225" cy="305" r="18" fill="#FFFFFF" stroke="#00B4D8" stroke-width="10"/>
+    <circle cx="305" cy="250" r="18" fill="#FFFFFF" stroke="#00B4D8" stroke-width="10"/>
+  </g>
+
+  <!-- Wordmark Text -->
+  <text x="300" y="500" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" text-anchor="middle">
+    <tspan font-weight="900" font-size="52" fill="#0E1B38" letter-spacing="2">DIGINET </tspan>
+    <tspan font-weight="400" font-size="52" fill="#0E1B38" letter-spacing="4">STUDIO</tspan>
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="300" y="560" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="22" fill="#0E1B38" letter-spacing="8" text-anchor="middle">
+    DESIGN <tspan fill="#00B4D8">•</tspan> DEVELOP <tspan fill="#00B4D8">•</tspan> GROW
+  </text>
+</svg>
