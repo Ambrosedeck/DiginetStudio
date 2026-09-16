@@ -28,7 +28,7 @@ export const AGENCY_CONFIG = {
   aboutFull: "From sleek corporate websites to powerful e-commerce platforms, we craft tailored digital experiences that drive growth, enhance brand presence, and help businesses thrive in the digital landscape.",
   
   contact: {
-    email: "hello.diginetstudio@gmail.com",
+    email: "hello@diginetstudio.com",
     phone: "+91 93661 61941",
     whatsappNumber: "919366161941",
     whatsappMessage: "Hello Diginet Studio! I would like to enquire about your website development and digital services.",
